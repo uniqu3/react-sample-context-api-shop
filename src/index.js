@@ -8,10 +8,10 @@ import './index.css';
 import App from './App';
 
 ReactDOM.render(
-  <CartProvider>
-      <BrowserRouter>
-        <App />
-      </BrowserRouter>
-  </CartProvider>,
-  document.getElementById('root')
+    <CartProvider>
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>
+    </CartProvider>,
+    document.getElementById('root')
 );
